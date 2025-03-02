@@ -6,21 +6,25 @@
     font-family: "circular-web";
     src: url("/fonts/circularweb-book.woff2") format("woff2");
   }
+
   @font-face {
     font-family: "general";
     src: url("/fonts/general.woff2") format("woff2");
   }
+
   @font-face {
-    font-family: "robort-medium";
-    src: url("/fonts/robort-medium.woff2") format("woff2");
+    font-family: "robert-medium";
+    src: url("/fonts/robert-medium.woff2") format("woff2");
   }
+
   @font-face {
-    font-family: "circular-web";
-    src: url("/fonts/circularweb-book.woff2") format("woff2");
+    font-family: "robert-regular";
+    src: url("/fonts/robert-regular.woff2") format("woff2");
   }
+
   @font-face {
-    font-family: "robort-regular";
-    src: url("/fonts/robort-regular.woff2") format("woff2");
+    font-family: "zentry";
+    src: url("/fonts/zentry-regular.woff2") format("woff2");
   }
 }
 @theme {
@@ -47,8 +51,10 @@ body {
 }
 
 @utility special-font {
-  font-family: "Zentry";
-  font-feature-settings: "ss01" on;
+  b {
+    font-family: "Zentry";
+    font-feature-settings: "ss01" on;
+  }
 }
 @utility border-hsla {
   @apply border border-white/20;
